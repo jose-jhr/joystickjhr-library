@@ -1,0 +1,24 @@
+<resources>
+        <declare-styleable name="CustomJoystickStyle">
+            <attr name="displayShapeName" format="boolean" />
+            <attr name="textCustom" format="string" />
+            <attr name="colorFirst" format="color" />
+            <attr name="colorSecond" format="color" />
+            <attr name="radioCircle" format="float" />
+            <attr name="alphaCircleFirst" format="integer" />
+            <attr name="alphaCircleSecond" format="integer" />
+            <attr name="textJoy" format="string" />
+            <attr name="xtextOffset" format="float" />
+            <attr name="ytextOffset" format="float" />
+            <attr name="textSizeJoy" format="float" />
+            <attr name="relleno" format="boolean" />
+            <attr name="rellenoSize" format="float" />
+            <attr name="colorText" format="color" />
+            <attr name="labelPosition" format="enum">
+                <enum name="left" value="0"/>
+                <enum name="right" value="1"/>
+            </attr>
+        </declare-styleable>
+
+
+</resources>

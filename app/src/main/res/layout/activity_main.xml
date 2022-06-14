@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <com.ingenieriajhr.joystickjhr.JoystickJhr
+        android:id="@+id/joystick"
+        android:layout_width="279dp"
+        android:layout_height="273dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:alphaCircleFirst="200"
+        app:alphaCircleSecond="255"
+        app:colorFirst="#2979FF"
+        app:colorSecond="#2979FF"
+        app:radioCircle="0.5"
+        app:textJoy="JHR"
+        app:textSizeJoy="40"
+        app:xtextOffset="-38"
+        app:relleno="true"
+        app:rellenoSize="12"
+        app:colorText="#D5D8E7"
+        app:ytextOffset="-15"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/joystick"
+        android:layout_marginTop="40dp"
+        android:text="distancia X =  "
+        android:id="@+id/distanciaX"
+        >
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/distanciaY"
+        android:layout_below="@id/distanciaX"
+        android:text="distancia Y =  "
+        >
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/distanciaY"
+        android:id="@+id/angle"
+        android:text="angle =  "
+        >
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/angle"
+        android:text="distancia"
+        android:id="@+id/distancia"
+        >
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Direccion"
+        android:id="@+id/dirKey"
+        android:layout_below="@id/distancia"
+        ></TextView>
+
+
+</RelativeLayout>
