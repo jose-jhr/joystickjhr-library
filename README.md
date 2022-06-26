@@ -27,7 +27,7 @@ Codigo de ejemplo:
 
 activity_main.xml
 
-```
+```xml
 
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -114,7 +114,7 @@ activity_main.xml
 
 MainActivity.kt 
 
-```
+```kotlin
 
 package com.ingenieriajhr.joystick
 
